@@ -141,12 +141,9 @@ transition: background 1s ease-in-out;
  }
 
 @media (max-width: 1366px) {
-	body {
-     margin: 0 auto;
-    }
-
 	.wrapper {
-		margin: 0 7%;
+    margin: 0 auto;
+	width: 68%;
 	}
 
 	.header {
@@ -188,14 +185,16 @@ transition: background 1s ease-in-out;
 
 @media (max-width: 1024px) {
 	.wrapper {
-		margin: 0 4%;
+		margin: 0 auto;
+		width: 92%;
 	}
 
 	.main {
+		margin-top: 85px;
 	 width: 50%;
-     padding: 0px 60% 150px 0;
+     padding: 0px 50% 90px 0;
      background: top right no-repeat url(img/mainImg.svg);
-     background-size: 60%;
+     background-size: 55%;
 	}
 
     .menu__item {
@@ -204,15 +203,21 @@ transition: background 1s ease-in-out;
 
 	.main__title {  
   	 font: normal 50px/66px pt_serifbold, arial, helvetica, 'sans-serif';
+  	 padding-top: 15px;
     }
 
   .main__subtitle { 
   	font: bold 18px/21px Roboto, arial, helvetica, 'sans-serif';
-  	padding-right: 15px;
+  	padding-right: 75px;
+  	margin: 40px 0 36px 0;
    }
 
   .main__button {
   	font: bold 14px/16px Roboto, arial, helvetica, 'sans-serif';
+  	 padding: 14px 18px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
   }
 }
 
@@ -226,8 +231,9 @@ transition: background 1s ease-in-out;
   }
 
   .header { 
-  	margin-bottom: 28px; 
-  	padding: 20px 0;
+  	margin-bottom: 10px; 
+  	margin-top: 10px;
+  	padding: 10px 0;
   }
 
   .logo { 
@@ -238,21 +244,22 @@ transition: background 1s ease-in-out;
   	padding: 74% 0 0; 
   	width: 100%;
   	text-align: center;
-  	background-size:100%;
+  	background-size:85%;
   	background-position: top center; 
   	margin-top: 10px;
   }
 
   .main__title { 
-  	margin-bottom: 44px; 
-  	margin-top: 50px;
+  	margin-bottom: 10px; 
+  	margin-top: 10px;
+  	padding-top: 10px;
   	font: normal 30px/35px pt_serifbold, arial, helvetica, 'sans-serif';
   }
 
   .main__subtitle { 
-  	margin-right: 0;
-  	padding: 0 40px; 
+  	padding: 0 50px; 
   	font: bold 16px/19px Roboto, arial, helvetica, 'sans-serif';
+  	margin: 40px 0 20px 0;
   }
 
   .main__button {
@@ -284,7 +291,7 @@ transition: background 1s ease-in-out;
   align-items: normal;
   position: fixed;
   top: 40px;
-  right: 10%;
+  right: 7%;
   width: 26px;
   height: 26px;
   cursor: pointer;
