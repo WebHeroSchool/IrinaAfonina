@@ -37,7 +37,7 @@ body {
 .menu__item {
   position: relative;
   padding: 0;
-  margin: 0 12px;
+  margin: 0 14px;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -140,25 +140,26 @@ transition: background 1s ease-in-out;
 	}
 
 	.header {
-		padding: 35px 0;
+		padding: 40px 0;
      margin-bottom: 22px;
 	}
 
  .main {
 	 width: 50%;
-     padding: 10px 50% 100px 0;
+     padding: 20px 50% 100px 0;
      background: top right no-repeat url(img/mainImg.svg);
      background-size: 55%;
-     margin-top: 90px;
+     margin-top: 80px;
 	}
 
 	.menu {
-		margin-top: 5px;
+		margin-top: 3px;
 	}
 
 
 	.menu__item {
-	 font-size: 14px;
+	 margin: 0 14px;
+    font: 500 14px/18px 'Roboto', arial, helvetica, sans-serif;
     }
 
     .menu__item:last-child {
@@ -166,13 +167,13 @@ transition: background 1s ease-in-out;
      }
 
 	.main__title {  
-  	font: normal 50px/66px pt_serifbold, arial, helvetica, 'sans-serif';
+  	font: normal 50px/65px pt_serifbold, arial, helvetica, 'sans-serif';
   	padding-top: 0px;
   }
 
   .main__subtitle {  
   	font: bold 18px/21px Roboto, arial, helvetica, 'sans-serif';
-  	  margin: 40px 0 42px 0;
+  	  margin: 40px 0 36px 0;
   }
 
   .main__button {
@@ -187,7 +188,7 @@ transition: background 1s ease-in-out;
 	}
 
 	.main {
-		margin-top: 85px;
+		margin-top: 80px;
 	 width: 50%;
      padding: 0px 50% 90px 0;
      background: top right no-repeat url(img/mainImg.svg);
@@ -199,14 +200,14 @@ transition: background 1s ease-in-out;
     }
 
 	.main__title {  
-  	 font: normal 50px/66px pt_serifbold, arial, helvetica, 'sans-serif';
-  	 padding-top: 15px;
+  	 font: normal 50px/63px pt_serifbold, arial, helvetica, 'sans-serif';
+  	 padding-top: 20px;
     }
 
   .main__subtitle { 
   	font: bold 18px/21px Roboto, arial, helvetica, 'sans-serif';
   	padding-right: 75px;
-  	margin: 40px 0 36px 0;
+  	margin: 43px 0 36px 0;
    }
 
   .main__button {
@@ -281,6 +282,7 @@ transition: background 1s ease-in-out;
  #checkbox:checked ~ .menu {
   visibility: visible;
   right: 0;
+  padding-top: 165px;
  }
 
  .menu__btn {
@@ -333,11 +335,12 @@ transition: background 1s ease-in-out;
 
  .menu__item {
   display: block;
-  margin: 30px 30% 0 30%;
+  margin: 24px 30% 0 30%;
   padding: 0;
   color: #000;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
+  line-height: 35px;
   font-weight: 500;
   text-decoration: none;
   transition-duration: .25s;
