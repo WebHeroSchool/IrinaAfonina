@@ -4,13 +4,11 @@
 
 body {
   margin: 0;
-  border: dashed 1px red;
 }
 
 .wrapper {
   margin-left: 10%;
   width: 80%;
-  border: dashed 1px red;
 }
 
 .header {
@@ -22,14 +20,12 @@ body {
 
 .logo, .menu {
   display: inline-block;
-  border: dashed 1px red;
 }
 
 .logo {
   margin-right: 0; 
   width: 190px;
   height: 35px;
-  border: dashed 1px red;
   background: url('img/logo.svg');
 }
 
@@ -41,7 +37,6 @@ body {
 .menu__item {
   position: relative;
   padding: 0;
-  border: dashed 1px red;
   margin: 0 12px;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
@@ -50,13 +45,12 @@ body {
   cursor: pointer;
 }
 
-.menu__item: last-child {
+.menu__item:last-child {
   padding-right: 0;
   margin-right: 0;
 }
 
 .menu__item:hover {
-  opacity: 0.5s;
   color: #0056EC;
 }
 
@@ -116,7 +110,7 @@ transition: background 1s ease-in-out;
   }
   
   50% {
-    background: white;
+    background: cyan;
   }
   
   to {
@@ -128,7 +122,6 @@ transition: background 1s ease-in-out;
   animation: flash 3s 5 ease-in-out;
 }
 .main__button:hover {
-	opacity: 0.5s;
 	background: turquoise;
 	}
 
@@ -153,20 +146,24 @@ transition: background 1s ease-in-out;
 
  .main {
 	 width: 50%;
-     padding: 0px 50% 100px 0;
+     padding: 10px 50% 100px 0;
      background: top right no-repeat url(img/mainImg.svg);
      background-size: 55%;
-     margin-top: 100px;
+     margin-top: 90px;
 	}
 
 	.menu {
-		margin-top: 12px;
+		margin-top: 5px;
 	}
 
 
 	.menu__item {
 	 font-size: 14px;
     }
+
+    .menu__item:last-child {
+    margin-right: 0;
+     }
 
 	.main__title {  
   	font: normal 50px/66px pt_serifbold, arial, helvetica, 'sans-serif';
@@ -252,14 +249,14 @@ transition: background 1s ease-in-out;
   .main__title { 
   	margin-bottom: 10px; 
   	margin-top: 10px;
-  	padding-top: 10px;
-  	font: normal 30px/35px pt_serifbold, arial, helvetica, 'sans-serif';
+  	padding-top: 4px;
+  	font: normal 30px/40px pt_serifbold, arial, helvetica, 'sans-serif';
   }
 
   .main__subtitle { 
   	padding: 0 50px; 
   	font: bold 16px/19px Roboto, arial, helvetica, 'sans-serif';
-  	margin: 40px 0 20px 0;
+  	margin: 30px 0 20px 0;
   }
 
   .main__button {
@@ -346,8 +343,12 @@ transition: background 1s ease-in-out;
   transition-duration: .25s;
  }
 
+ .menu__item:last-child {
+ 	margin-right: 30%;
+ }
+
  .menu__item:hover {
-  background-color: none;
+  background-color: white;
  }
 }
 
